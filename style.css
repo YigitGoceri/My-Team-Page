@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 1489px;
+    width: 1440px;         
+}
+
+h1{
+position: absolute;
+height: 47px;
+width: 278px;
+left: 243px;
+top: 110px;
+font-size: 36px;
+line-height: 47.7px;
+letter-spacing: -0.045em;
+font-family: 'PT Serif';
+font-weight: 700;
+}
+
+h2{
+position: absolute;
+height: 27px;
+width: 117px;
+left: 736px;
+top: 110px;
+font-size: 18px;
+line-height: 27px;
+font-family: 'Poppins', sans-serif;
+text-transform: uppercase;
+
+}
+
+div div p{
+    font-family: 'PT Serif',serif;
+    font-size: 12px;
+    line-height: 15.9px;
+    font-weight: 400;
+    color: #000000;
+}
+
+h2+p {
+margin: 0;
+padding: 0;
+position: absolute;
+height: 87px;
+width: 439px;
+left: 736px;
+top: 147px;
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+
+}
+
+div p {                            /*applied all titles */
+    transform:rotate(90deg);
+    transform-origin: left top;
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;    
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+  }
+
+
+div:nth-child(1) img{
+    position:absolute;
+    height: 341px;
+    width: 238px;
+    left: 240px;
+    top: 330px;
+    
+  }
+
+ div:nth-child(1) h3{
+    position: absolute;
+    height: 27px;
+    width: 117px;
+    left: 240px;
+    top: 686px;
+      
+  }
+
+  div:nth-child(1) p{
+    
+    height: 16px;
+    width: 102px;
+    left: 504px;
+    top: 330px;
+     
+     }
+
+     div:nth-child(2) img{
+        position:absolute;
+        height: 347px;
+        width: 238px;
+        left: 571px;
+        top: 429px;
+        background-color: #c4c4c4;
+            
+      }
+
+      div:nth-child(2) h3{
+        position: absolute;
+        height: 27px;
+        width: 128px;
+        left: 571px;
+        top: 791px;
+      }
+
+      div:nth-child(2) p{
+    
+        height: 16px;
+        width: 85px;
+        left: 835px;
+        top: 429px;
+               
+         }
+
+         div:nth-child(3) img{
+            position:absolute;
+            height: 341px;
+            width: 238px;
+            left: 901px;
+            top: 330px;
+            
+          }
+
+          div:nth-child(3) h3{
+            position: absolute;
+            height: 27px;
+            width: 70px;
+            left: 901px;
+            top: 686px;
+          
+          }
+
+          div:nth-child(3) p{
+    
+            height: 16px;
+            width: 65px;
+            left: 1165px;
+            top: 330px;
+                        
+             }
+
+       div div:nth-child(4)  img{
+            position: absolute;
+            height: 341px;
+            width: 237px;
+            left: 241px;
+            top: 845px;
+            border-radius: 0px;
+
+          }    
+
+          div div:nth-child(4) h3{
+            position: absolute;
+            height: 27px;
+            width: 86px;
+            left: 241px;
+            top: 1201px;
+                }
+
+               div div:nth-child(4) p{
+    
+                height: 16px;
+                width: 77px;
+                left: 504px;
+                top: 845px;
+                                              
+                     }
+            div div:nth-child(5)  img{
+                        position: absolute;
+                        height: 347px;
+                        width: 238px;
+                        left: 571px;
+                        top: 944px;
+                       border-radius: 0px;
+                            }    
+                     
+                      div div:nth-child(5) h3{
+                        position: absolute;
+                        height: 27px;
+                        width: 124px;
+                        left: 571px;
+                        top: 1306px;
+                        border-radius: nullpx;
+                            }
+                            div div:nth-child(5) p{
+                                height: 16.000000000000014px;
+                                width: 68.00000000000006px;
+                                left: 835px;
+                                top: 944px;
+                                border-radius: nullpx;
+                            }
+
+                            div div:nth-child(6)  img{
+                                position: absolute;
+                                height: 341px;
+                                width: 237px;
+                                left: 902px;
+                                top: 845px;
+                                border-radius: 0px;
+                            }
+
+                            div div:nth-child(6) h3{
+                                position: absolute;
+                                height: 27px;
+                                width: 92px;
+                                left: 902px;
+                                top: 1201px;
+                                border-radius: nullpx;
+                            }
+
+                            div div:nth-child(6) p{
+                                height: 16.000000000000014px;
+                                width: 76.00000000000007px;
+                                left: 1165px;
+                                top: 845px;
+                                border-radius: nullpx;
+                                                   }
+
+                            footer{
+                            position: absolute;
+                            height: 17px;
+                            width: 287px;
+                            left: 547px;
+                            top: 1448px;
+                            color: #a9a9a9;
+                            }
+
+                       @media screen and (max-width: 680px){ /*mobil kısım */
+
+                        .container{
+                          height: 1409px;
+                          width: 375px;
+                          left: 0px;
+                          top: 0px;
+                          border-radius: 0px;
+                          margin: 0 auto;
+
+                        }
+
+                        h1{
+                          height: 47px;
+                          width: 278px;
+                          left: 12px;
+                          top: 71px;
+                          border-radius: nullpx;
+
+                        }
+                        
+                        h2{
+                          height: 27px;
+                          width: 117px;
+                          left: 12px;
+                          top: 156px;
+                          border-radius: nullpx;
+                          
+                        }
+
+                        h3{
+                          font-size: 14px;
+                          line-height: 21px;
+                        }
+
+                        div div p{
+                          font-family: PT Serif;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 13px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                        }
+
+                        h2+p{
+                          height: 87px;
+                          width: 333px;
+                          left: 12px;
+                          top: 193px;
+                          border-radius: nullpx;
+                          font-size: 14px;
+                          line-height: 21px;
+
+                        }
+
+                       div div:nth-child(1) img{
+
+                        height: 209px;
+                        width: 138.71908569335938px;
+                        left: 19px;
+                        top: 318px;
+                        border-radius: 0px;
+
+
+                       }
+
+                       div div:nth-child(1) h3{
+                        height: 18px;
+                        width: 128px;
+                        left: 19px;
+                        top: 537px;
+                        border-radius: nullpx;
+                        
+                       }
+
+                       div div:nth-child(1) p {
+
+                        height: 10.99999427795411px;
+                        width: 130.00000000000014px;
+                        left: 175px;
+                        top: 318px;
+                        border-radius: nullpx;
+                        
+                       }
+
+                       div div:nth-child(2) img{
+                        height: 209px;
+                        width: 138.3468017578125px;
+                        left: 201.6531982421875px;
+                        top: 366px;
+                        border-radius: 0px;
+                        
+                       }
+
+                       div div:nth-child(2) h3{
+                        height: 18px;
+                        width: 141px;
+                        left: 200px;
+                        top: 585px;
+                        border-radius: nullpx;
+                                           }
+                      div div:nth-child(2) p{
+
+                        height: 9.99999427795411px;
+                        width: 122.00000000000011px;
+                        left: 357px;
+                        top: 366px;
+                        border-radius: nullpx;
+
+                      }
+
+
+                      div div:nth-child(3) img{
+                        height: 219.43980407714844px;
+                        width: 139px;
+                        left: 19px;
+                        top: 619px;
+                        border-radius: 0px;
+
+                      }
+
+                      div div:nth-child(3) h3{
+                        height: 14px;
+                        width: 111px;
+                        left: 20px;
+                        top: 852px;
+                        border-radius: nullpx;
+
+                      }
+                      
+                      div div:nth-child(3) p{
+
+                        
+                        height: 8.999996185302741px;
+                        width: 84.00000000000007px;
+                        left: 173px;
+                        top: 619px;
+                        border-radius: nullpx;
+                      }
+
+                      div div:nth-child(4) img{
+
+                        height: 220.46047973632812px;
+                        width: 139px;
+                        left: 200px;
+                        top: 667px;
+                        border-radius: 0px;
+
+                      }
+
+                      div div:nth-child(4) h3{
+
+                        height: 17px;
+                        width: 109px;
+                        left: 200px;
+                        top: 898px;
+                        border-radius: nullpx;
+
+                      }
+
+                      div div:nth-child(4) p{
+
+                        height: 9.99999713897706px;
+                        width: 69.00000000000006px;
+                        left: 354px;
+                        top: 667px;
+                        border-radius: nullpx;
+                      }
+
+                      div div:nth-child(5) img{
+                        height: 226px;
+                        width: 139px;
+                        left: 19px;
+                        top: 930px;
+                        border-radius: 0px;
+
+                      }
+
+                      div div:nth-child(5) h3{
+                        height: 21px;
+                        width: 97px;
+                        left: 19px;
+                        top: 1170px;
+                        border-radius: nullpx;
+
+                      }
+
+                      div div:nth-child(5) p{
+                        height: 13.00000000000001px;
+                        width: 57.00000000000005px;
+                        left: 173px;
+                        top: 930px;
+                        border-radius: nullpx;
+
+                      }
+
+                      div div:nth-child(6) img{
+                        height: 220px;
+                        width: 139.35484313964844px;
+                        left: 201px;
+                        top: 979px;
+                        border-radius: 0px;
+                      }
+
+                      div div:nth-child(6) h3{
+                        height: 21px;
+                        width: 72px;
+                        left: 200px;
+                        top: 1213px;
+                        border-radius: nullpx;
+
+                      }
+
+                      div div:nth-child(6) p{
+
+                        height: 13.00000000000001px;
+                        width: 63.00000000000006px;
+                        left: 355px;
+                        top: 979px;
+                        border-radius: nullpx;
+                      }
+
+                      footer {
+                        height: 17px;
+                        width: 287px;
+                        left: 46px;
+                        top: 1368px;
+                        border-radius: nullpx;
+
+
+
+                      }
+
+                        
+                        } 
+                       
