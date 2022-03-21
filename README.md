@@ -38,9 +38,11 @@
 
 ![screenshot](https://raw.githubusercontent.com/YigitGoceri/My-Team-Page/main/My-team-page.png)
 
--This is how the project looks like.
--You can view my project by click the DEMO link above ^^
--As always, developing responsive project by using CSS was fun and instructive experience!
+- This is how the project looks like.
+
+- You can view my project by click the DEMO link above ^^
+
+- As always, developing responsive project by using CSS was fun and instructive experience!
 
 ### Built With
 
