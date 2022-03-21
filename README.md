@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/YigitGoceri/My-Team-Page/blob/main/index.html">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/YigitGoceri/My-Team-Page/main/My-team-page.png)
 
 -This is how the project looks like.
 -You can view my project by click the DEMO link above ^^
